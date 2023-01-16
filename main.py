@@ -89,3 +89,12 @@ def est_pleine(plateau:dict) -> bool:
             if case == None:
                 return False
     return True
+
+plateau = {
+    "A" : [None for _ in range(3)],
+    "B" : [None for _ in range(3)],
+    "C" : [None for _ in range(3)]
+}
+
+termine = False
+joueur = "X"
